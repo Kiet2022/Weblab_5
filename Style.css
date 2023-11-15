@@ -1,0 +1,198 @@
+div {
+  float: left;
+}
+
+.Login {
+  float: right;
+  align-items: flex-end;
+}
+header {
+  clear: both;
+  background-color: rgb(255, 255, 255);
+
+  float: left;
+  width: 100%;
+}
+nav {
+  clear: both;
+  padding: 10px;
+  background-color: rgb(8, 174, 55);
+}
+#body {
+  float: left;
+  background-color: aliceblue;
+  clear: both;
+
+/*   border-style: solid;
+  border-width: 1px;
+  border-color: black;
+ */
+  width: 100%;
+  box-shadow: none;
+}
+.boxItem {
+  text-align: left;
+
+  border-style: solid;
+  border-color: rgb(71, 71, 255);
+  border-radius: 5px 5px 5px 5px;
+  border-width: 1px;
+
+  width: 100%;
+ 
+  margin-bottom: 5px;
+
+}
+li a{
+}
+.boxItem#Sta {
+  color: red;
+}
+.boxItemHeader {
+  color: white;
+  width: 100%;
+  text-align: center;
+
+  background-color: rgb(71, 71, 255);
+  border-radius: 5px 5px 0px 0px;
+
+/*   border-style: solid;
+  border-color: black;
+  border-width: 1px; */
+
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+article {
+  display: table-row;
+  float: left;
+  margin-top: 5px;
+
+}
+section {
+  display: table-cell;
+  width: 60%;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+.sectionHeader {
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: rgb(71, 71, 255);
+
+  }
+  .sectionBody{
+    
+    width: 100%;
+
+  }
+.product-box {
+  
+  text-align: center;
+
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgb(118, 188, 241);
+
+  width: 23%;
+  height: 40%;
+
+  margin: 5px;
+
+}
+.photo{
+    width: 80%;
+
+}
+aside {
+  width: 20%;
+  height: 100%;
+  /*
+  border-style: solid;
+  */
+}
+aside#left,
+aside#right,
+section {
+  display: table-cell;
+  vertical-align: top;
+}
+aside#left {
+  width: 20%;
+}
+aside#right {
+  width: 20%;
+}
+.asideItem {
+  width: 100%;
+  float: left;
+}
+
+footer {
+  align-items: center;
+  clear: both;
+  background-color: rgb(51, 153, 90);
+}
+ul {
+  font-size: medium;
+  list-style-type: square;
+}
+p {
+  font-size: large;
+}
+.Login {
+  float: right;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.imgPanel {
+  height: 20%;
+  width: 20%;
+}
+.imgMarquee {
+  height: max-content;
+  width: max-content;
+}
+
+.divFloatRight {
+  float: right;
+}
+.divSearch {
+  float: right;
+}
+
+marquee {
+  
+  width: 80%;
+height: 80%;
+}
+.border {
+/*   border-width: 1px;
+  border-style: solid; */
+}
+.price{
+    color: red;
+    font-size: 18;
+}
+.bill{
+    font-size: 20;
+    font-style: bold;
+}
+form + table{
+
+  width: 100%;
+
+}
+table{
+  width: 100%;  
+}
