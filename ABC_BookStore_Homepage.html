@@ -29,68 +29,71 @@
       </div>
     </header>
 
-    <nav class="border">
-      <div class="button-group" role="group" aria-label="Button group with nested dropdown">
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-primary">Home page</button>
-        </div>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-primary">Introduction</button>
-        </div>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-primary">Contact</button>
+    <nav   class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid">
+        <div class="button-group" role="group" aria-label="Button group with nested dropdown" >
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Home page</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Introduction</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Contact</button>
+          </div>
+
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary dropdown-toggle"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              BOOKS BY SUBJECT
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Foreign language</a></li>
+              <li><a class="dropdown-item" href="#">Information technology</a></li>
+              <li><a class="dropdown-item" href="#">Law</a></li>
+              <li><a class="dropdown-item" href="#">Literature</a></li>
+              <li><a class="dropdown-item" href="#">Science and technology</a></li>
+              <li><a class="dropdown-item" href="#">Africulture</a></li>
+              <li><a class="dropdown-item" href="#">History of geography</a></li>
+              <li><a class="dropdown-item" href="#">Economics</a></li>
+              <li><a class="dropdown-item" href="#">Listen to the song</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary dropdown-toggle"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              BOOKS BY PUBLISHER
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Young publishers</a></li>
+              <li><a class="dropdown-item" href="#">Statistics Publishing House</a></li>
+              <li><a class="dropdown-item" href="#">Bronze needle</a></li>
+              <li><a class="dropdown-item" href="#">National University</a></li>
+              <li><a class="dropdown-item" href="#">Artistic craft culture</a></li>
+              <li><a class="dropdown-item" href="#">Culture</a></li>
+              <li><a class="dropdown-item" href="#">History of geography</a></li>
+              <li><a class="dropdown-item" href="#">Labor-Society</a></li>
+              <li><a class="dropdown-item" href="#">Science & Engineering</a></li>
+            </ul>
+          </div>
+
         </div>
 
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-primary dropdown-toggle"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            BOOKS BY SUBJECT
-          </button>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Foreign language</a></li>
-            <li><a class="dropdown-item" href="#">Information technology</a></li>
-            <li><a class="dropdown-item" href="#">Law</a></li>
-            <li><a class="dropdown-item" href="#">Literature</a></li>
-            <li><a class="dropdown-item" href="#">Science and technology</a></li>
-            <li><a class="dropdown-item" href="#">Africulture</a></li>
-            <li><a class="dropdown-item" href="#">History of geography</a></li>
-            <li><a class="dropdown-item" href="#">Economics</a></li>
-            <li><a class="dropdown-item" href="#">Listen to the song</a></li>
-          </ul>
+        <div class="btn-group" style="float: right; ">
+          <input
+            type="text"
+            name="searchName"
+            id
+            placeholder="Enter the name of book" />
+          
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary">Find book</button>
+            </div>
         </div>
-
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-primary dropdown-toggle"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            BOOKS BY PUBLISHER
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Young publishers</a></li>
-            <li><a class="dropdown-item" href="#">Statistics Publishing House</a></li>
-            <li><a class="dropdown-item" href="#">Bronze needle</a></li>
-            <li><a class="dropdown-item" href="#">National University</a></li>
-            <li><a class="dropdown-item" href="#">Artistic craft culture</a></li>
-            <li><a class="dropdown-item" href="#">Culture</a></li>
-            <li><a class="dropdown-item" href="#">History of geography</a></li>
-            <li><a class="dropdown-item" href="#">Labor-Society</a></li>
-            <li><a class="dropdown-item" href="#">Science & Engineering</a></li>
-          </ul>
-        </div>
-
+    
       </div>
-
-      <div class=" divSearch">
-        <input
-          type="text"
-          name="searchName"
-          id
-          placeholder="Enter the name of book" />
-        <div class="button-group" role="group" aria-label="Button group with nested dropdown"></div>
-          <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-
   </nav>
 
   <div id="body">

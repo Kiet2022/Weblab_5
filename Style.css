@@ -1,6 +1,3 @@
-div {
-  float: left;
-}
 
 .Login {
   float: right;
@@ -18,24 +15,21 @@ header {
   width: 100%;
 }
 nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
   clear: both;
   background-color: green;
 }
 #body {
-  float: left;
   background-color: aliceblue;
   clear: both;
+  margin-top: 10px;
 
-/*   border-style: solid;
-  border-width: 1px;
-  border-color: black;
- */
   width: 100%;
   box-shadow: none;
 }
 .boxItem {
   text-align: left;
-
   border-style: solid;
   border-color: rgb(71, 71, 255);
   border-radius: 5px 5px 5px 5px;
@@ -46,8 +40,7 @@ nav {
   margin-bottom: 5px;
 
 }
-li a{
-}
+
 .boxItem#Sta {
   color: red;
 }
@@ -69,18 +62,14 @@ li a{
 }
 article {
   display: table-row;
-  float: left;
   margin-top: 5px;
-
 }
 section {
   display: table-cell;
   width: 60%;
 
-  padding-left: 5px;
-  padding-right: 5px;
-
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .sectionHeader {
     color: white;
@@ -93,16 +82,10 @@ section {
 
   }
   .sectionBody{
-    padding: 10px;
     width: 100%;
-    float: center;
-  }
-  .loginForm{
     text-align: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
   }
+
 .product-box {
   
   text-align: center;
@@ -141,10 +124,7 @@ aside#left {
 aside#right {
   width: 20%;
 }
-.asideItem {
-  width: 100%;
-  float: left;
-}
+
 
 footer {
   align-items: center;
